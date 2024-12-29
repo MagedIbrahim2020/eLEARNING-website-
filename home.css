@@ -1,0 +1,732 @@
+
+ #navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #f0fcfc;
+    box-shadow: 0px -3px 7px 0px #06BBCC;
+ }
+ .nav-link{
+    color:#06bacb;
+ }
+ #carouselExampleAutoplaying{
+    margin-top: 69px;
+ }
+.cursol_div1{
+    background-image: url(' img/pexels-marta-wave-6437841.jpg');
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.cursol_div2{
+    background-image: url('img/pexels-julia-m-cameron-4143794.jpg');
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.cursol_div3{
+    background-image: url('img/pexels-olly-3769021.jpg ');
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.text_on_photo_cursol{
+   padding-left: 40px;
+   padding-top: 10%;
+}
+
+.home_word_nav{
+    color: #06BBCC;
+ }
+.nav-logo{
+    color: #06BBCC;
+}
+.nav-link:hover{
+    color: #06bacb;
+}
+#dark_icon{
+    color: #06BBCC;
+}
+#light_icon{
+    visibility: hidden;
+    color: #06BBCC;
+}
+#texton_cursol_h4{
+    color: #06BBCC;
+    font-size: 50px;
+    padding-left: 83px;
+}
+#texton_cursol_h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    padding-left: 90px;
+    font-weight: 900px;
+}
+.p_in_cursol {
+    padding-left: 90px;
+    font-size: 32px;
+}
+.btn_cursol{
+    margin-left: 90px;
+    margin-right: 20px;
+    background-color: #06BBCC;
+    width: 10vw;
+}
+.btn2_cursol{
+    width: 10vw;
+}
+.read_btn{
+    background-color: #06BBCC;
+    color: white;
+}
+
+.scroll_btn{
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    background-color: #06BBCC;
+    width: 3vw;
+    border: 0px;
+    height: 7vh;
+    color: white;
+    font-size: 25px;
+    z-index: 1000;
+    margin-top: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.scroll_btn:hover{
+   background-color: #181e38;
+   color: #f0fcfc;
+}
+.about-img{
+    height: 61vh;
+}
+
+
+.p_in_div2{
+    font-size: 25px;
+}
+.card-div{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.cards{
+    background-color:#f0fcfc;
+}
+
+.font-icon{
+    font-size: 40px;
+    color: #06bacb;
+}
+
+.about_us_p{
+    color: #06bacb;
+    font-weight: bold;
+    font-size: 20px;
+}
+.arrow_icon{
+    color: #06bacb;
+}
+.about_h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about_btn{
+   background-color: #06bacb;
+   border: 0px;
+   height: 50px;
+   width: 150px;
+   color: white;
+}
+.about_btn:hover{
+    background-color: #181e38;
+}
+.head_category{
+    color: #06bacb;
+}
+
+.web_card{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+
+}
+.favicon{
+    color: black;
+    text-align: end;
+    float: right;
+    font-size: 21px;
+    cursor: pointer;
+}
+.Categories_img:hover{
+    transform: scale(1.02);
+}
+
+.card-text{
+    color: #06bacb;
+    font-size: 18px;
+    text-decoration: none;
+}
+.star_icon{
+    color: #06BBCC;
+    cursor: pointer;
+}
+.star_rating{
+    text-align: start;
+}
+.star_rating_p1{
+    float: right;
+}
+.p_in_pcourses{
+    font-size: 25px;
+}
+.card_div{
+    background-color:#f0fcfc;
+}
+.icons_div{
+    background-color: #f0fcfc;
+    position: absolute;
+    width: 163px;
+    left: 26%;
+    height: 35px;
+    top: 68%;
+}
+.social_icon{
+    font-size: 25px;
+    color: #06bacb;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.social_icon:hover{
+    color: #181e38;
+    transform: scale(1.1);
+}
+.card_instrc_body{
+    background-color: #f0fcfc;
+}
+.card-img-top{
+    height: 277px;
+}
+
+.web_img{
+   height: 250px;
+}
+.markt_img{
+    height: 500px;
+}
+.video_graphic_img{
+    height: 235px;
+}
+
+.popular_courses_div:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 2px 5px 0px #181e38;
+}
+
+.card_img_student{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.body_card_div1{
+    background-color: #f0fcfc;
+}
+ .my_inst_card:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 2px 5px 0px #181e38;
+ }
+.feedback_div:hover{
+    transform: scale(1.04);
+}
+.cards:hover{
+  transform: scale(1.02);
+  box-shadow: 0px 2px 5px 0px #06bacb;  
+}
+
+.COURSES_Category_1{
+    background-image: url('img/pexels-mutecevvil-19915776.jpg');
+    opacity: 0.6;
+}
+.COURSES_Category_2{
+    background-image: url('img/pexels-ketut-subiyanto-4560175.jpg');
+    opacity: 0.6;
+}
+.COURSES_Category_3{
+    background-image: url('img/pexels-thepaintedsquare-593324.jpg');
+    opacity: 0.6;
+}
+.COURSES_Category_4{
+    background-image: url('img/pexels-caio-56759.jpg');
+    opacity: 0.6;
+}
+.COURSES_Category_5{
+    background-image: url('img/pexels-n-voitkevich-5412248.jpg');
+    opacity: 0.6;
+}
+.COURSES_Category_6{
+    background-image: url('img/pexels-weekendplayer-186461.jpg');
+    opacity: 0.6;
+}
+
+.COURSES_Category_1,.COURSES_Category_2,.COURSES_Category_3,
+.COURSES_Category_4,.COURSES_Category_5,.COURSES_Category_6{
+    width: 12vw;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 4px;
+    color:white;
+    padding-top: 65px;
+    font-weight: bold;
+}
+
+.COURSES_Category_1:hover{
+    opacity:1;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px 0px #181e38;
+}
+
+.COURSES_Category_2:hover{
+    opacity:1;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px 0px #181e38;
+}
+
+.COURSES_Category_3:hover{
+    opacity:1;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px 0px #181e38;
+}
+
+.COURSES_Category_4:hover{
+    opacity:1;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px 0px #181e38;
+}
+
+.COURSES_Category_5:hover{
+    opacity:1;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px 0px #181e38;
+}
+
+.COURSES_Category_6:hover{
+    opacity:1;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px 0px #181e38;
+}
+.btn_viewmore{
+    margin-left: 41%;
+    background-color:#06BBCC;
+    border: 0px;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.btn_viewmore_text{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.btn_viewmore:hover{
+    background-color: #181e38;
+    color: white;
+}
+.contact_form{
+    padding-left: 30px;
+}
+.contact_input{
+    width: 30vw;
+    outline: 0px;
+} 
+.submit_contact_btn{
+    width: 30vw;
+    background-color: #06bacb;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    height: 6vh;
+}
+.submit_contact_btn:hover{
+    background-color: #181e38;
+}
+
+.contacr_div_icon{
+    background-color:#f0fcfc ;
+    height: 26vh;
+}
+
+.footer{
+    padding-top: 50PX;
+    padding-bottom: 50px;
+    background-color: #181e38;
+}
+.btn_feedback{
+    background-color: #06BBCC;
+    color: white;
+    border-radius: 10px;
+}
+footer{
+    color: #06bacb;
+}
+.footer_p{
+    font-size: 21px;
+}
+footer a{
+    color: #06bacb;
+}
+.link-offset-2:hover{
+    color: #f0fcfc;
+}
+.foot_icon1:hover{
+    color: #f0fcfc;
+}
+
+
+@media (width:1024px){
+    .p_in_div2 {
+        font-size: 20px;
+    }
+    .cursol_div1 ,.cursol_div2,.cursol_div3{
+        height: 76vh;
+    }
+    .icons_div{
+        width: 130px;
+        left: 19%;
+        top: 192px;
+    }
+    .COURSES_Category_1,
+    .COURSES_Category_2, 
+    .COURSES_Category_3,
+    .COURSES_Category_4, 
+    .COURSES_Category_5,
+    .COURSES_Category_6 {
+        width: 15vw;
+        height: 26vh;
+    }
+    #texton_cursol_h4 {
+        font-size: 39px;
+        padding-left: 36px;
+    }
+    #texton_cursol_h1 {
+        font-size: 58px;
+        padding-left: 42px;
+    }
+    .p_in_cursol {
+        padding-left: 54px;
+        font-size: 20px;
+    }
+    .btn_cursol {
+        margin-left: 51px;
+        width: 11vw;
+    }
+    .cursol_div1 ,.cursol_div2,.cursol_div3{
+        height: 83vh;
+    }
+    .about_h1 {
+        font-size: 34px;
+    }
+    .card-img-top {
+        height: 219px;
+    }
+    .about-img {
+        height: 60vh;
+    }
+}
+
+ @media(max-width:768px){
+    .cursol_div1 ,.cursol_div2,.cursol_div3{
+        height: 75vh;
+    }
+    .text_on_photo_cursol {
+        padding-top: 15%;
+    }
+    .cards {
+       padding: 0px;
+    } 
+    .about_h1{
+        font-size: 24px;
+    }
+    .about_p{
+        font-size: 12px;
+    }
+    .about_icon{
+        font-size: 12px;
+    }
+    .about-img {
+        height: 67vh;
+    }
+    .about_btn {
+        height: 38px;
+        width: 120px;
+    }
+    .div_Card{
+        margin-bottom: 13px;
+        
+    }
+    .div_Card:hover{
+        transform:none;
+    }
+    .icons_div {
+        width: 136px;
+        left: 30%;
+    }
+    .p_in_feedback{
+        font-size: 12px;
+    }
+    .p_in_pcourses{
+        font-size: 15px;
+    }
+    .p_in_tdTable{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .star_icon {
+        font-size: 13px;
+    }
+    #texton_cursol_h4 {
+        font-size: 30px;
+        padding-left: 26px;
+    }
+    #texton_cursol_h1 {
+        font-size: 42px;
+        padding-left: 28px;
+    }
+    .p_in_cursol {
+        padding-left: 33px;
+        font-size: 20px;
+    }
+    .btn_cursol{
+        margin-left: 32px;
+        font-size: 13px;
+        width: 12vw;
+    }
+    .btn2_cursol{
+        font-size: 13px;
+        width: 12vw;
+    }
+    .p_in_div2{
+        font-size: 13px;
+    }
+    .p2_in_div2{
+        font-size: 11px;
+    }
+    .markt_img {
+        height: 300px;
+    }
+    .card1_div:hover{
+        transform: none;
+    }
+    .COURSES_Category_1, 
+    .COURSES_Category_2, 
+    .COURSES_Category_3,
+    .COURSES_Category_4,
+    .COURSES_Category_5,
+    .COURSES_Category_6 {
+        width: 26vw;
+        height: 30vh;
+        margin-bottom: 12px;
+    }
+    .btn_viewmore {
+        margin-left: 38%;
+        width: 23vw;
+    }
+    .scroll_btn{
+        width: 4vw;
+        right: 11px;
+    }
+    .my_inst_card{
+        transform: none;
+    }
+    .my_inst_card:hover {
+        transform: none;
+        box-shadow: 0px 2px 5px 0px #181e38;
+        }
+} 
+
+
+@media(max-width:426px){
+    .cursol_div1 ,.cursol_div2,.cursol_div3{
+        height: 65vh;
+    }
+    .text_on_photo_cursol {
+        padding-top: 30%;
+    }
+    #texton_cursol_h4 {
+        font-size: 22px;
+        padding-left: 1px;
+    }
+    #texton_cursol_h1 {
+        font-size: 26px;
+        padding-left: 0px;
+    }
+    .texton_cursol {
+        padding-top: 270px;
+    }
+        
+    .p_in_cursol {
+        padding-left: 4px;
+        font-size: 14px;
+    }
+    .btn_cursol{
+        font-size: 11px;
+        margin-left: 4px;
+        width: 22vw;
+    }
+    .btn2_cursol{
+        font-size: 10px;
+        width: 22vw;
+    }
+    .card1_div{
+        margin-bottom: 15px;
+    }
+    .cours_div{
+         margin-bottom: 10px;
+    }
+    .cards {
+        margin-bottom: 0px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .about-img {
+        height: 33vh;
+    }
+    .pcourse_div{
+         margin-bottom: 15px;
+    }
+    .p_in_tdTable {
+        font-size: 15px;
+        padding-top: 3px;
+    }
+    .card-img-top{
+        height: 180px;
+    }
+    .markt_img {
+        height: 239px;
+    }
+    .icons_div {
+        width: 128px;
+        left: 32%;
+        height: 35px;
+        top: 58%;
+    }
+    .body_card_div1 {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .body_card_div {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .feedback_div{
+        margin-bottom: 30px;
+    }
+    .p_in_tdTable {
+        font-size: 12px;
+        padding-top: 2px;
+    }
+    .cursol_img{
+        height: 450px;
+    }
+    .card1_div:hover{
+        transform: none;
+    }
+    .contact_div{
+        margin-bottom: 13px;
+    }
+    .contact_input {
+        width: 67vw;
+    }
+    .submit_contact_btn {
+        width: 67vw;
+    }
+    .Categories_img:hover{
+        transform:none;
+    }
+    .feedback_div:hover{
+        transform: none;
+    }
+    .div_Card {
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .COURSES_Category_1,
+    .COURSES_Category_2,
+    .COURSES_Category_3,
+    .COURSES_Category_4, 
+    .COURSES_Category_5,
+    .COURSES_Category_6 {
+        width: 54vw;
+        height: 32vh;
+        margin: auto;
+        margin-bottom: 11px;
+    }
+    .btn_viewmore {
+        margin-left: 32%;
+        width: 34vw;
+        font-size: 17px;
+    }
+    
+    .btn_viewmore_text {
+    font-size: 16px;
+    }
+    .scroll_btn {
+        width: 7vw;
+        right: 16px;
+    }
+    #carouselExampleAutoplaying {
+        margin-top: 62px;
+    }
+    .popular_courses_div{
+        transform: none;
+    }
+    .popular_courses_div:hover {
+        transform: none;
+        box-shadow: 0px 2px 5px 0px #181e38;
+    }
+    .my_inst_card:hover {
+    transform: none;
+    box-shadow: 0px 2px 5px 0px #181e38;
+    }
+    .contact_form {
+        padding-left: 3px;
+    }
+
+}
+@media(max-width:321px){
+   .contact_form {
+        padding-left: 0px;
+    }    
+    .icons_div {
+        left: 26%;
+    }
+    .btn_viewmore {
+        font-size: 14px;
+    }
+    .about_h1{
+        font-size: 15px;
+    }
+    .btn_cursol{
+        width: 25vw;
+    }
+}
+

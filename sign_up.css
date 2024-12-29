@@ -1,0 +1,104 @@
+*{
+    font-family:Cabin; 
+    
+ }
+ .parent_div{
+     margin-top: 33px;
+     height: 90vh;
+     background-color: white;
+ }
+ .card{
+     margin-left: 0px;
+ }
+ .card_img{
+     height: 83.5vh;
+ }
+ .form_div{
+     padding-top: 5%;
+ }
+ 
+ .nav-logo{
+     color: #06BBCC;
+ }
+
+ .btn_login{
+     color: white;
+     font-size: 18px;
+     text-decoration: none;
+ }
+
+ .passdiv {
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 5px;
+}
+.passdiv:hover{
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 2px 1px #70C4F7 ;
+}
+.pass_inpt{
+    border: 0px;
+    outline: 0px;
+    width: 26vw;
+}
+#eye_icon{
+   cursor: pointer;
+}
+
+
+ @media(max-width:1024px){
+     .card_img {
+         height: 96.5vh;
+     }
+     
+     .parent_div {
+         height: 97vh;
+     }
+     
+ }
+ 
+ @media(max-width:768px){
+    input{
+      height: 30px;
+    }
+     .card_img {
+         height: 98.5vh;
+     }
+     .form_div {
+         padding-top: 7%;
+     }
+     .parent_div {
+         height: 98vh;
+     }
+     .pass_inpt {
+        width: 19vw;
+    }
+ }
+ @media(max-width:426px){
+     .card_img {
+         height: 55.5vh;
+     }
+     
+     .parent_div {
+         height: 56vh;
+     }
+     .pass_inpt {
+        width: 64vw;
+    }
+    .passdiv{
+        background-color: white;
+    }
+    .parent_div{
+        margin-top: 0px;
+    }
+
+ }
+ @media(max-width:320px){
+    .pass_inpt {
+        width: 54vw;
+    }
+ }
+ 

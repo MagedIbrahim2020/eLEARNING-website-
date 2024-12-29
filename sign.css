@@ -1,0 +1,128 @@
+*{
+   font-family:Cabin; 
+   
+}
+.parent_div{
+    margin-top: 40px;
+    height: 85vh;
+    background-color: white;
+}
+.card{
+    margin-left: 0px;
+}
+.card_img{
+    height: 84.5vh;
+    filter: blur(95%);
+}
+.form_div{
+    padding-top: 15%;
+}
+
+.nav-logo{
+    color: #06BBCC;
+}
+.btn_login{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.passdiv {
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 5px;
+}
+.passdiv:hover{
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 2px 1px #70C4F7 ;
+}
+.pass_inpt{
+    border: 0px;
+    outline: 0px;
+    width: 26vw;
+}
+#eye_icon{
+   cursor: pointer;
+}
+.another_login_btn{
+    margin-left: 17px;
+    text-decoration: none;
+}
+
+
+@media(max-width:1024px){
+    .card_img {
+        height: 90.5vh;
+    }
+    
+    .parent_div {
+        height: 91vh;
+    }
+    .another_login_btn {
+        margin-left: 5px;
+    }
+    .another_btn_login_p{
+        font-size: 12px;
+    }
+    
+}
+
+@media(max-width:768px){
+    .another_login_btn{
+        margin-left: 6px;
+        width: 25vw;
+    }
+    .card_img {
+        height: 96.5vh;
+    }
+    .form_div {
+        padding-top: 7%;
+    }
+    .parent_div {
+        height: 97vh;
+    }
+    .btn_facebook{
+        font-size: 14px;
+    }
+    .pass_inpt {
+        width: 19vw;
+    }
+}
+@media(max-width:426px){
+    .card_img {
+        height: 55.5vh;
+    }
+    
+    .parent_div {
+        height: 56vh;
+    }
+    .another_login_btn{
+        width: 72vw;
+        margin-left: 13px;
+    }
+    .pass_inpt {
+        width: 64vw;
+    }
+    .passdiv{
+        background-color: white;
+    }
+    .parent_div{
+        margin-top: 0px;
+    }
+}
+@media(max-width:376px){
+    .another_login_btn {
+        width: 68vw;
+        margin-left: 13px;
+    }
+}
+@media(max-width:320px){
+    .another_login_btn{
+        width: 63vw;
+    }
+    .pass_inpt{
+        width: 53vw;
+    }
+}
