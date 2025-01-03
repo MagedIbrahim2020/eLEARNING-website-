@@ -191,6 +191,22 @@ footer a{
     }
 } 
 
+@media(max-width:431px){
+    .div_for_p_incard_price {
+        width: 43vw;
+    }
+    .card_img {
+        height: 27vh;
+    }
+    .header_div{
+        height: 42vh;
+    }
+    .footer{
+        height: 122vh;
+    }
+}
+
+
 @media(max-width:426px){
     .p_in_pcourses {
         font-size: 21px
@@ -209,6 +225,8 @@ footer a{
         width: 84vw;
         margin: auto;
     }
-
+    .footer {
+        height: 136vh;
+    }
 
 }

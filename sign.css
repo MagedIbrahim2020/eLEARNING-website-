@@ -1,6 +1,8 @@
 *{
    font-family:Cabin; 
-   
+}
+body{
+    background-color: #f0fcfc;
 }
 .parent_div{
     margin-top: 40px;
@@ -35,7 +37,6 @@
     padding: 5px;
 }
 .passdiv:hover{
-    /* border: 1px solid black; */
     box-shadow: 0px 0px 2px 1px #70C4F7 ;
 }
 .pass_inpt{
@@ -54,11 +55,11 @@
 
 @media(max-width:1024px){
     .card_img {
-        height: 90.5vh;
+        height: 75.5vh;
     }
-    
     .parent_div {
-        height: 91vh;
+        height: 77vh;
+        margin-top: 109px;
     }
     .another_login_btn {
         margin-left: 5px;
@@ -66,7 +67,9 @@
     .another_btn_login_p{
         font-size: 12px;
     }
-    
+    .passdiv {
+        height: 5vh;
+    }
 }
 
 @media(max-width:768px){
@@ -82,6 +85,7 @@
     }
     .parent_div {
         height: 97vh;
+        margin-top: 20px;
     }
     .btn_facebook{
         font-size: 14px;
@@ -90,11 +94,44 @@
         width: 19vw;
     }
 }
+@media(max-width:431px){
+    .parent_div {
+        height: 152vh;
+        margin-top: 50px;
+    }
+    body{
+        background-color: white;
+    }
+    .card_img {
+        height: 60.5vh;
+        margin-top: -40px;
+    }
+    .nav-logo {
+        margin-top: -48px;
+        font-size: 36px;
+    }
+    .pass_inpt {
+        width: 63vw;
+    }
+    .another_login_btn {
+        margin-left: 12px;
+        width: 73vw;
+    }
+    .another_btn_login_p {
+        font-size: 18px;
+    }
+    .passdiv {
+        height: 4vh;
+    }
+}
 @media(max-width:426px){
     .card_img {
-        height: 55.5vh;
+        height:81.5vh;
+        margin-top: 2px;
     }
-    
+    .nav-logo {
+        margin-top: -6px;
+    }
     .parent_div {
         height: 56vh;
     }
@@ -107,6 +144,7 @@
     }
     .passdiv{
         background-color: white;
+        height: 6vh;
     }
     .parent_div{
         margin-top: 0px;
@@ -124,5 +162,11 @@
     }
     .pass_inpt{
         width: 53vw;
+    }
+    .nav-logo {
+        font-size: 29px;
+    }
+    .another_btn_login_p {
+        font-size: 17px;
     }
 }

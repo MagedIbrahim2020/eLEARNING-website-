@@ -1,7 +1,9 @@
 *{
     font-family:Cabin; 
-    
  }
+ body{
+    background-color: #f0fcfc;
+}
  .parent_div{
      margin-top: 33px;
      height: 90vh;
@@ -75,6 +77,32 @@
      }
      .pass_inpt {
         width: 19vw;
+    }
+ }
+ @media(max-width:431px){
+    .parent_div {
+        height: 153vh;
+    }
+    .card_img {
+        height: 57.5vh;
+        margin-top: -33px;
+    }
+    .Sign_up_div{
+        background-color: white;
+    }
+    input{
+        height: 4vh;
+    }
+    .passdiv{
+        height: 4vh;
+    }
+    .pass_inpt {
+        width: 64vw;
+        height: 2vh;
+    }
+    .nav-logo {
+        font-size: 33px;
+        margin-top: -23px;
     }
  }
  @media(max-width:426px){

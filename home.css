@@ -561,7 +561,110 @@ footer a{
         box-shadow: 0px 2px 5px 0px #181e38;
         }
 } 
-
+@media(max-width:431px){
+    .btn_cursol {
+        margin-left:10px;
+        width: 21vw;
+    }
+    .btn2_cursol {
+        font-size: 13px;
+        width: 19vw;
+    }
+    #texton_cursol_h1 {
+        font-size: 36px;
+        padding-left: 9px;
+    }
+    .p_in_cursol {
+        padding-left: 11px;
+        font-size: 15px;
+    }
+    #texton_cursol_h4 {
+        font-size: 28px;
+        padding-left: 9px;
+    }
+    .cursol_div1, .cursol_div2, .cursol_div3 {
+        height: 50vh;
+    }
+    .text_on_photo_cursol {
+        padding-top: 27%;
+    }
+    .cards {
+        padding: 0px;
+        margin-bottom: 13px;
+        width: 90%;
+        margin: 0px auto 19px;
+    }
+    .about-img {
+        height: 30vh;
+    }
+    .p_in_div2 {
+        font-size: 17px;
+    }
+    .p2_in_div2 {
+        font-size: 14px;
+    }
+    .card{
+        margin-bottom: 15px;
+    }
+    #card1{
+        margin-bottom: 0px;
+    }
+    .markt_img {
+        height: 250px;
+    }
+    .card-img-top {
+        height: 242px;
+    }
+    .popular_courses_div{
+        width: 93%;
+        margin: 0px auto 20px;
+    }
+    .p_in_tdTable {
+        font-size: 14px;
+    }
+    .icons_div {
+        left: 34%;
+    }
+    .feedback_div{
+        width: 90%;
+        margin: 20px auto 0px;
+    }
+    .contact_form {
+        padding-left: 0px;
+    }
+    .contact_input {
+        width: 70vw;
+    }
+    .submit_contact_btn {
+        border-radius: 13px;
+        height: 4vh;
+    }
+    .contacr_div_icon {
+        height: 16vh;
+    }
+    .COURSES_Category_1, .COURSES_Category_2, 
+    .COURSES_Category_3, .COURSES_Category_4,
+    .COURSES_Category_5, .COURSES_Category_6 {
+        width: 59vw;
+        height: 25vh;
+        margin-bottom: 12px;
+        margin: 10px auto;
+    }
+    .btn_viewmore {
+        margin-left: 30%;
+        width: 36vw;
+    }
+    .div_Card{
+        margin:10px auto ;
+        width: 90%;
+    }
+    .navbar_div{
+        margin-bottom: 5px;
+    }
+    .footer{
+        height: 122vh;
+    }
+}
 
 @media(max-width:426px){
     .cursol_div1 ,.cursol_div2,.cursol_div3{
@@ -606,6 +709,9 @@ footer a{
         width: 100%;
         margin-left: 0%;
     }
+    .card {
+        margin-bottom: 7px;
+    }
     .about-img {
         height: 33vh;
     }
@@ -621,6 +727,7 @@ footer a{
     }
     .markt_img {
         height: 239px;
+        margin-top: -10px;
     }
     .icons_div {
         width: 128px;
@@ -628,13 +735,17 @@ footer a{
         height: 35px;
         top: 58%;
     }
+    .contacr_div_icon {
+        height: 21vh;
+    }
+
     .body_card_div1 {
-        width: 70%;
-        margin-left: 15%;
+        width: 93%;
+        margin: auto;
     }
     .body_card_div {
-        width: 70%;
-        margin-left: 15%;
+        width: 93%;
+        margin: auto;
     }
     .feedback_div{
         margin-bottom: 30px;
@@ -656,7 +767,7 @@ footer a{
         width: 67vw;
     }
     .submit_contact_btn {
-        width: 67vw;
+        height: 5vh;
     }
     .Categories_img:hover{
         transform:none;
@@ -710,8 +821,11 @@ footer a{
     .contact_form {
         padding-left: 3px;
     }
-
+    .footer {
+        height: 136vh;
+    }
 }
+
 @media(max-width:321px){
    .contact_form {
         padding-left: 0px;
@@ -721,6 +835,8 @@ footer a{
     }
     .btn_viewmore {
         font-size: 14px;
+        margin-left: 30%;
+        width: 40vw;
     }
     .about_h1{
         font-size: 15px;
