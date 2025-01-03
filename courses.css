@@ -201,8 +201,11 @@ footer a{
     .header_div{
         height: 42vh;
     }
+    .enroll_btn {
+        width: 37vw;
+    }
     .footer{
-        height: 122vh;
+        height: 118vh;
     }
 }
 

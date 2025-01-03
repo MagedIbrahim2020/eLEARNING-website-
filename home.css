@@ -563,27 +563,27 @@ footer a{
 } 
 @media(max-width:431px){
     .btn_cursol {
-        margin-left:10px;
-        width: 21vw;
+        margin-left: -7px;
+        width: 24vw;
     }
     .btn2_cursol {
         font-size: 13px;
-        width: 19vw;
+        width: 22vw;
     }
     #texton_cursol_h1 {
         font-size: 36px;
-        padding-left: 9px;
+        padding-left: 0px;
     }
     .p_in_cursol {
-        padding-left: 11px;
+        padding-left: 0px;
         font-size: 15px;
     }
     #texton_cursol_h4 {
         font-size: 28px;
-        padding-left: 9px;
+        padding-left: 0px;
     }
     .cursol_div1, .cursol_div2, .cursol_div3 {
-        height: 50vh;
+        height: 55vh;
     }
     .text_on_photo_cursol {
         padding-top: 27%;
@@ -646,13 +646,13 @@ footer a{
     .COURSES_Category_3, .COURSES_Category_4,
     .COURSES_Category_5, .COURSES_Category_6 {
         width: 59vw;
-        height: 25vh;
+        height: 28vh;
         margin-bottom: 12px;
         margin: 10px auto;
     }
     .btn_viewmore {
-        margin-left: 30%;
-        width: 36vw;
+        margin-left: 25%;
+        width: 47vw;
     }
     .div_Card{
         margin:10px auto ;
@@ -662,9 +662,10 @@ footer a{
         margin-bottom: 5px;
     }
     .footer{
-        height: 122vh;
+        height: 118vh;
     }
 }
+
 
 @media(max-width:426px){
     .cursol_div1 ,.cursol_div2,.cursol_div3{
