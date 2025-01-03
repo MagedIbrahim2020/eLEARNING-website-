@@ -204,6 +204,10 @@ footer a{
     .enroll_btn {
         width: 37vw;
     }
+    .scroll_btn {
+        width: 9vw;
+        right: 18px;
+    }
     .footer{
         height: 118vh;
     }
